@@ -84,12 +84,14 @@ The user interface uses Vue as the frontend framework and is then hosted using A
         + Authentication with third party services.
     + AWS IAM allows setting up access key for programmatic service accesses
 
+![Overview](Overview.png)
+
 Amazon Alexa and AWS Lambda are use to provide addition methods for controlling the MCU.
 + Functions that modify that device's shadow is implemented on Amplify, each time an Alexa's command is triggered, the corresponding AWS Lambda's function is called.
     + Amazon Alexa is a speech recognition system where commands can be registered and triggered when a specific sphrase/sentence is provided.
     + AWS Lambda is a lightweight online runtime for programming languages that can use the AWS SDK. Each feature can be implemented as a independent function and triggered the need methods from AWS SDK.
 
-![Overview](Overview.png)
+![Alexa](Alexa.png)
 
 ## Data processing
 
